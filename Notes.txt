@@ -1,0 +1,40 @@
+Links:
+
+1. Fairness Measures for Machine Learning in Finance: https://pages.awscloud.com/rs/112-TZM-766/images/Fairness.Measures.for.Machine.Learning.in.Finance.pdf
+
+2. Amazon AI Fairness and Explainability Whitepaper: https://pages.awscloud.com/rs/112-TZM-766/images/Amazon.AI.Fairness.and.Explainability.Whitepaper.pdf
+
+Model Artifacts:
+
+1. Input Data
+
+https://us-west-2.console.aws.amazon.com/s3/object/sagemaker-us-west-2-076084266064/sagemaker/DEMO-autopilot/input/bank-additional-full.csv
+
+2. Shuffled training and validation splits
+
+https://console.aws.amazon.com/s3/buckets/sagemaker-us-west-2-076084266064/sagemaker/DEMO-autopilot/output/my-first-autopilot-job/preprocessed-data/tuning_data/
+
+3. Transformed training and validation data
+
+https://console.aws.amazon.com/s3/buckets/sagemaker-us-west-2-076084266064/sagemaker/DEMO-autopilot/output/my-first-autopilot-job/transformed-data/dpp7/rpb/
+
+4. Feature Engineering Code (Python)
+
+https://us-west-2.console.aws.amazon.com/s3/object/sagemaker-us-west-2-076084266064/sagemaker/DEMO-autopilot/output/my-first-autopilot-job/sagemaker-automl-candidates/pr-1-6d3497cd1f3b45b1b5992147b01593488bb8568de2df4f429eefc3d332/generated_module/candidate_data_processors/dpp7.py
+
+5. Feature Engineering Model
+
+https://us-west-2.console.aws.amazon.com/s3/object/sagemaker-us-west-2-076084266064/sagemaker/DEMO-autopilot/output/my-first-autopilot-job/data-processor-models/my-first-a-dpp7-1-25ad38cec0d0479898c29407dd5c97646c4ff4a7b72a4/output/model.tar.gz
+
+6. Algorithm Model
+
+https://us-west-2.console.aws.amazon.com/s3/object/sagemaker-us-west-2-076084266064/sagemaker/DEMO-autopilot/output/my-first-autopilot-job/tuning/my-first-a-dpp7-xgb/tuning-job-1-d3c3521924bf4cd7bf-216-fe4a5f95/output/model.tar.gz
+
+7. Explainability Artifacts
+
+https://console.aws.amazon.com/s3/buckets/sagemaker-us-west-2-076084266064/sagemaker/DEMO-autopilot/output/my-first-autopilot-job/documentation/explainability/output/tuning-job-1-d3c3521924bf4cd7bf-216-fe4a5f95/
+
+
+Model Metrics 
+
+
